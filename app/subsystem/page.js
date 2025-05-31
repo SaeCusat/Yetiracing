@@ -3,6 +3,7 @@ import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 import AnimatedGrid from "../components/grid";
 import { useState,useRef,useEffect } from "react";
+import Image from 'next/image';
 export default function Subsystem(){
 
 const [yearisVisible, yearsetIsVisible] = useState(false);
@@ -109,7 +110,6 @@ const [yearisVisible, yearsetIsVisible] = useState(false);
 </div>
 </header>
 </div>
-
  <div className="w-64 hidden sm:flex justify-center h-64 ">
             <header class=" absolute flex flex-col justify-center  items-center text-center">
   <img class="inline-flex object-contain border-2 border-white rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-green-600/100 bg-white text-indigo-600 h-36 w-36 md:h-48 md:w-48" src="https://ik.imagekit.io/r70knk9pu/WhatsApp%20Image%202025-02-08%20at%2020.28.26_a22c52b6.jpg?updatedAt=1739794940348" alt=""></img>
@@ -138,6 +138,80 @@ const [yearisVisible, yearsetIsVisible] = useState(false);
 </header>
 </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className="h-32 flex justify-center items-center w-full text-5xl sm:text-6xl font-zenDots">
+  <span className="bg-gradient-to-r from-red-700 to-white bg-clip-text text-transparent">
+    Our Founders
+  </span>
+</div>
+<div className=" flex mb-16 flex-row justify-center w-full space-x-0 md:space-x-32">
+<div className="w-64 flex justify-center h-64">
+            <header class=" absolute flex flex-col justify-center  items-center text-center">
+  <img class="inline-flex object-contain border-2 border-white rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-green-600/100 bg-white text-indigo-600 h-36 w-36 md:h-48 md:w-48" src=" /assets/athul.jpeg" alt=""></img>
+  <h1 class="text-xl  md:text-2xl text-gray-100 font-Fn mt-2">  Atul J Meleth  </h1>
+  <div className=" flex flex-col md:flex-row justify-center w-full items-center space-x-2">
+  <h2 class="text-base md:text-lg text-gray-200 font-Orbitron">
+  Team Manager </h2>
+    <a href="https://www.linkedin.com/in/atul-meleth/" target="_blank"
+      class="text-indigo-900  font-bold border-b-0  hover:scale-110 transition-all">
+<img src="https://www.svgrepo.com/show/349436/linkedin.svg" alt='linkedin' width="30" height="30"></img></a>
+</div>
+</header>
+</div>
+
+           
+<div className="w-64 flex justify-center h-64">
+            <header class=" absolute flex flex-col justify-center  items-center text-center">
+  <img class="inline-flex object-contain border-2 border-white rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-green-600/100 bg-white text-indigo-600 h-36 w-36 md:h-48 md:w-48" src=" /assets/avanath.jpeg" alt=""></img>
+  <h1 class="text-xl  md:text-2xl text-gray-100 font-Fn mt-2">  Ajanth V T </h1>
+  <div className=" flex flex-col md:flex-row justify-center w-full items-center space-x-2">
+  <h2 class="text-base md:text-lg text-gray-200 font-Orbitron">
+  Team Captain </h2>
+    <a href=" https://www.linkedin.com/in/ajanthvt/" target="_blank"
+      class="text-indigo-900  font-bold border-b-0  hover:scale-110 transition-all">
+<img src="https://www.svgrepo.com/show/349436/linkedin.svg" alt='linkedin' width="30" height="30"></img></a>
+</div>
+</header>
+</div>
+
+
+<div className="w-64 flex justify-center h-64">
+            <header class=" absolute flex flex-col justify-center  items-center text-center">
+  <img class="inline-flex object-contain border-2 border-white rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-green-600/100 bg-white text-indigo-600 h-36 w-36 md:h-48 md:w-48" src=" /assets/kuriakose.jpeg" alt=""></img>
+  <h1 class="text-xl  md:text-2xl text-gray-100 font-Fn mt-2">  Kuriakose K Saju  </h1>
+  <div className=" flex flex-col md:flex-row justify-center w-full items-center space-x-2">
+  <h2 class="text-base md:text-lg text-gray-200 font-Orbitron">
+  Vice Captain </h2>
+    <a href=" https://www.linkedin.com/in/kuriakose-k-saju?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+      class="text-indigo-900  font-bold border-b-0  hover:scale-110 transition-all">
+<img src="https://www.svgrepo.com/show/349436/linkedin.svg" alt='linkedin' width="30" height="30"></img></a>
+</div>
+</header>
+</div>
+
+
+</div>
+
+
+
+
+
 <div  className="h-32 flex justify-center w-full text-5xl  sm:text-6xl font-zenDots text-white"> <span className="text-red-700 ">[</span>24-25<span className="text-red-700">]</span></div>
 
         <div className="relative z-20 flex flex-row justify-center w-full space-x-2 md:space-x-14  mb-16">
