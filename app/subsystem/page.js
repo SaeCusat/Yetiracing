@@ -155,11 +155,14 @@ const [yearisVisible, yearsetIsVisible] = useState(false);
 
 
 
-<div className="h-32 flex justify-center items-center w-full text-5xl sm:text-6xl font-zenDots">
-  <span className="bg-gradient-to-r from-red-700 to-white bg-clip-text text-transparent">
-    Our Founders
-  </span>
+<div className="w-full flex justify-center items-center py-12 text-center">
+  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-zenDots">
+    <span className="bg-gradient-to-r from-red-700 to-white bg-clip-text text-transparent">
+      Our Founders
+    </span>
+  </h1>
 </div>
+
 <div className=" flex mb-16 flex-row justify-center w-full space-x-0 md:space-x-32">
 <div className="w-64 flex justify-center h-64">
             <header class=" absolute flex flex-col justify-center  items-center text-center">
