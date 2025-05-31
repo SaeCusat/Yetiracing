@@ -56,17 +56,17 @@ export default function Footer(){
       <h5 className="mb-4 md:text-2xl">CONTACT US</h5>
       <ul className="">
         <li className="flex space-x-2 sm:space-x-10">
-         Asif Ahammad H
+        NANDHU K SAJI
         </li>
         <li className="flex space-x-2 sm:space-x-10">
-        <a href="tel:+916238118843">+91  6238118843</a>
+        <a href="tel:+916238118843">+91 81390 02569</a>
         </li>
         <br></br>
         <li className="flex space-x-2 sm:space-x-10">
-         Abhijith Mohan
+        JISHNU BABU
         </li>
         <li className="flex space-x-2 sm:space-x-10">
-        <a href="tel:+918547177020">+91  8547177020</a>
+        <a href="tel:+918547177020">+91 89214 83956</a>
           
         </li>
       </ul>
