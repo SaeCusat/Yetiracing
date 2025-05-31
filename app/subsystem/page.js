@@ -154,103 +154,60 @@ const [yearisVisible, yearsetIsVisible] = useState(false);
 
 
 
+
 <div className="h-32 flex justify-center items-center w-full text-5xl sm:text-6xl font-zenDots">
-        <span className="bg-gradient-to-r from-red-700 to-white bg-clip-text text-transparent">
-          Our Founders
-        </span>
-      </div>
-
-      <div className="flex flex-wrap justify-center w-full mb-16">
-  {/* Founder 1 */}
-  <div className="w-1/2 md:w-1/3 flex justify-center relative h-80 mb-8">
-    <header className="absolute flex flex-col justify-center items-center text-center">
-      <Image
-        className="object-contain border-2 border-white rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-green-600 bg-white"
-        src="/assets/athul.jpeg"
-        alt="Atul"
-        width={192}
-        height={192}
-      />
-      <h1 className="text-xl md:text-2xl text-gray-100 font-Fn mt-2">Atul J Meleth</h1>
-      <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-2">
-        <h2 className="text-base md:text-lg text-gray-200 font-Orbitron">Team Manager</h2>
-        <a
-          href="https://www.linkedin.com/in/atul-meleth/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:scale-110 transition-all"
-        >
-          <Image
-            src="https://www.svgrepo.com/show/349436/linkedin.svg"
-            alt="LinkedIn"
-            width={30}
-            height={30}
-          />
-        </a>
-      </div>
-    </header>
-  </div>
-
-  {/* Founder 2 */}
-  <div className="w-1/2 md:w-1/3 flex justify-center relative h-80 mb-8">
-    <header className="absolute flex flex-col justify-center items-center text-center">
-      <Image
-        className="object-contain border-2 border-white rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-green-600 bg-white"
-        src="/assets/avanath.jpeg"
-        alt="Ajanth"
-        width={192}
-        height={192}
-      />
-      <h1 className="text-xl md:text-2xl text-gray-100 font-Fn mt-2">Ajanth V T</h1>
-      <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-2">
-        <h2 className="text-base md:text-lg text-gray-200 font-Orbitron">Team Captain</h2>
-        <a
-          href="https://www.linkedin.com/in/ajanthvt/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:scale-110 transition-all"
-        >
-          <Image
-            src="https://www.svgrepo.com/show/349436/linkedin.svg"
-            alt="LinkedIn"
-            width={30}
-            height={30}
-          />
-        </a>
-      </div>
-    </header>
-  </div>
-
-  {/* Founder 3 */}
-  <div className="w-full md:w-1/3 flex justify-center relative h-80">
-    <header className="absolute flex flex-col justify-center items-center text-center">
-      <Image
-        className="object-contain border-2 border-white rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-green-600 bg-white"
-        src="/assets/kuriakose.jpeg"
-        alt="Kuriakose"
-        width={192}
-        height={192}
-      />
-      <h1 className="text-xl md:text-2xl text-gray-100 font-Fn mt-2">Kuriakose K Saju</h1>
-      <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-2">
-        <h2 className="text-base md:text-lg text-gray-200 font-Orbitron">Vice Captain</h2>
-        <a
-          href="https://www.linkedin.com/in/kuriakose-k-saju"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:scale-110 transition-all"
-        >
-          <Image
-            src="https://www.svgrepo.com/show/349436/linkedin.svg"
-            alt="LinkedIn"
-            width={30}
-            height={30}
-          />
-        </a>
-      </div>
-    </header>
-  </div>
+  <span className="bg-gradient-to-r from-red-700 to-white bg-clip-text text-transparent">
+    Our Founders
+  </span>
 </div>
+<div className=" flex mb-16 flex-row justify-center w-full space-x-0 md:space-x-32">
+<div className="w-64 flex justify-center h-64">
+            <header class=" absolute flex flex-col justify-center  items-center text-center">
+  <img class="inline-flex object-contain border-2 border-white rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-green-600/100 bg-white text-indigo-600 h-36 w-36 md:h-48 md:w-48" src=" /assets/athul.jpeg" alt=""></img>
+  <h1 class="text-xl  md:text-2xl text-gray-100 font-Fn mt-2">  Atul J Meleth  </h1>
+  <div className=" flex flex-col md:flex-row justify-center w-full items-center space-x-2">
+  <h2 class="text-base md:text-lg text-gray-200 font-Orbitron">
+  Team Manager </h2>
+    <a href="https://www.linkedin.com/in/atul-meleth/" target="_blank"
+      class="text-indigo-900  font-bold border-b-0  hover:scale-110 transition-all">
+<img src="https://www.svgrepo.com/show/349436/linkedin.svg" alt='linkedin' width="30" height="30"></img></a>
+</div>
+</header>
+</div>
+
+           
+<div className="w-64 flex justify-center h-64">
+            <header class=" absolute flex flex-col justify-center  items-center text-center">
+  <img class="inline-flex object-contain border-2 border-white rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-green-600/100 bg-white text-indigo-600 h-36 w-36 md:h-48 md:w-48" src=" /assets/avanath.jpeg" alt=""></img>
+  <h1 class="text-xl  md:text-2xl text-gray-100 font-Fn mt-2">  Ajanth V T </h1>
+  <div className=" flex flex-col md:flex-row justify-center w-full items-center space-x-2">
+  <h2 class="text-base md:text-lg text-gray-200 font-Orbitron">
+  Team Captain </h2>
+    <a href=" https://www.linkedin.com/in/ajanthvt/" target="_blank"
+      class="text-indigo-900  font-bold border-b-0  hover:scale-110 transition-all">
+<img src="https://www.svgrepo.com/show/349436/linkedin.svg" alt='linkedin' width="30" height="30"></img></a>
+</div>
+</header>
+</div>
+
+
+<div className="w-64 flex justify-center h-64">
+            <header class=" absolute flex flex-col justify-center  items-center text-center">
+  <img class="inline-flex object-contain border-2 border-white rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-green-600/100 bg-white text-indigo-600 h-36 w-36 md:h-48 md:w-48" src=" /assets/kuriakose.jpeg" alt=""></img>
+  <h1 class="text-xl  md:text-2xl text-gray-100 font-Fn mt-2">  Kuriakose K Saju  </h1>
+  <div className=" flex flex-col md:flex-row justify-center w-full items-center space-x-2">
+  <h2 class="text-base md:text-lg text-gray-200 font-Orbitron">
+  Vice Captain </h2>
+    <a href=" https://www.linkedin.com/in/kuriakose-k-saju?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+      class="text-indigo-900  font-bold border-b-0  hover:scale-110 transition-all">
+<img src="https://www.svgrepo.com/show/349436/linkedin.svg" alt='linkedin' width="30" height="30"></img></a>
+</div>
+</header>
+</div>
+
+
+</div>
+
 
 
 
