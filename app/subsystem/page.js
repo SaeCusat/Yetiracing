@@ -96,7 +96,7 @@ const [yearisVisible, yearsetIsVisible] = useState(false);
 </div>
 </header>
 </div>
-<div className=" flex mb-16 flex-row justify-center w-full space-x-0 md:space-x-32">
+<div className=" flex mb-16 flex-row justify-center w-full space-x-0 md:space-x-20">
 <div className="w-64 flex justify-center h-64">
             <header class=" absolute flex flex-col justify-center  items-center text-center">
   <img class="inline-flex object-contain border-2 border-white rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-green-600/100 bg-white text-indigo-600 h-36 w-36 md:h-48 md:w-48" src="https://ik.imagekit.io/r70knk9pu/WhatsApp%20Image%202025-02-22%20at%2017.16.03_fdd35ac2.jpg?updatedAt=1740226522168" alt=""></img>
@@ -155,7 +155,7 @@ const [yearisVisible, yearsetIsVisible] = useState(false);
 
 
 
-<div className="h-32 flex justify-center w-full text-5xl  sm:text-6xl font-zenDots">
+<div className="h-32 flex justify-center w-full text-5xl pl-4 md:pl-0  sm:text-6xl font-zenDots">
   
     <span className="bg-gradient-to-r from-red-700 to-white bg-clip-text text-transparent">
       Our Founders
@@ -163,7 +163,7 @@ const [yearisVisible, yearsetIsVisible] = useState(false);
   
 </div>
 
-<div className=" flex mb-16 flex-row justify-center w-full space-x-0 md:space-x-32">
+<div className=" flex mb-16 md:flex-row flex-col justify-center  w-full space-x-0 md:space-x-12 ">
 <div className="w-64 flex justify-center h-64">
             <header class=" absolute flex flex-col justify-center  items-center text-center">
   <img class="inline-flex object-contain border-2 border-white rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-green-600/100 bg-white text-indigo-600 h-36 w-36 md:h-48 md:w-48" src=" /assets/athul.jpeg" alt=""></img>
