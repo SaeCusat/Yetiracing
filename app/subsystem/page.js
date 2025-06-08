@@ -163,7 +163,7 @@ const [yearisVisible, yearsetIsVisible] = useState(false);
   
 </div>
 
-<div className=" flex mb-16 md:flex-row flex-col justify-center  w-full space-x-0 md:space-x-12 ">
+<div className=" flex mb-16 md:flex-row flex-col justify-center items-center  w-full space-x-0 md:space-x-12 ">
 <div className="w-64 flex justify-center h-64">
             <header class=" absolute flex flex-col justify-center  items-center text-center">
   <img class="inline-flex object-contain border-2 border-white rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-green-600/100 bg-white text-indigo-600 h-36 w-36 md:h-48 md:w-48" src=" /assets/athul.jpeg" alt=""></img>
