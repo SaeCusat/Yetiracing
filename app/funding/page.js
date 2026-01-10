@@ -35,7 +35,7 @@ export default function (){
                   className="object-contain h-40 md:h-52"
                 />
                 <div className="text-white text-lg md:text-xl font-Rajdhani mt-4 text-center">
-                  Pay to <span className="font-bold">ashwins78@fifederal</span> using this QR code 💰
+                  Pay using this QR code 💰
                 </div>
               </div>
             </div>
