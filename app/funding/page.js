@@ -1,7 +1,7 @@
 "use client"
 import Navbar from "../components/navbar"
 import bg from "../asset/DSC_0641.JPG"
-import qr from "../asset/WhatsApp Image 2025-01-04 at 21.22.27_36b3f519.jpg"
+import qr from "../asset/campaign_poster_v3.jpg"
 import Image from "next/image"
 import Footer from "../components/footer"
 export default function (){
