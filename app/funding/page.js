@@ -1,7 +1,7 @@
 "use client"
 import Navbar from "../components/navbar"
 import bg from "../../public/assets/DSC_0641.jpg"
-import qr from "../asset/campaign_poster_v3.png"
+import qr from "../asset/qr.jpeg"
 import Image from "next/image"
 import Footer from "../components/footer"
 export default function (){
@@ -14,7 +14,7 @@ export default function (){
         <div className="flex-grow h-screen bg-gradient-to-b from-black to-red-700">
           <div className="relative h-full">
             {/* Background Image */}
-            <Image src="/assets/DSC_0641.jpg" alt="bg" className="object-cover h-full w-full" />
+            <Image src={bg} alt="bg" className="object-cover h-full w-full" />
   
             {/* Dark Overlay */}
             <div className="absolute inset-0 bg-black opacity-50"></div>
