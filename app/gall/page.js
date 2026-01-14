@@ -9,14 +9,14 @@ const Gallery3D = () => {
   const animationRef = useRef(null);
 
   const images = [
-    "/assets/DSC_0664.JPG",
-    "/assets/DSC_0027.JPG",
-    "/assets/DSC_0139.JPG",
-    "/assets/DSC_0173.JPG",
-    "/assets/DSC_0181.jpg",
+    "/assets/DSC_0664.jpg",
+    "/assets/DSC_0027.webp",
+    "/assets/DSC_0049.webp",
+    "/assets/DSC_0173.webp",
+    "/assets/DSC_0181.webp",
     "/assets/1.jpg",
-    "/assets/2.jpg",
-    "/assets/4.jpg"
+    "/assets/2.webp",
+    "/assets/4.webp"
   ];
 
   useEffect(() => {
