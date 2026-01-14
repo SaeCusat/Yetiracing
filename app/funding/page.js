@@ -15,6 +15,7 @@ export default function (){
           <div className="relative h-full">
             {/* Background Image */}
             <Image src={bg} alt="bg" className="object-cover h-full w-full" />
+            
   
             {/* Dark Overlay */}
             <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -35,7 +36,14 @@ export default function (){
                   className="object-contain h-40 md:h-52"
                 />
                 <div className="text-white text-lg md:text-xl font-Rajdhani mt-4 text-center">
-                  Pay using this QR code 💰
+                  Pay using this QR code 💰<br></br><a
+  href="http://m-lp.co/yetiraci?utm_medium=whatsapp_status_message&utm_source=app"
+  className="underline"
+>
+  Direct Link
+</a>
+
+
                 </div>
               </div>
             </div>
